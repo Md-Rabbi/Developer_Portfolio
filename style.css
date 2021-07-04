@@ -56,6 +56,9 @@ h1{
     display: flex;
 
 }
+.head{
+    padding-left: 7%;
+}
 .experience_body{
     display: flex;
 }
