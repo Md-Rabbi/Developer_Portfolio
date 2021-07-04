@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 40px;
+}
+.top_header{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    color: rgb(27, 27, 27);
+}
+.mg-{
+    margin-bottom: -20px;
+}
+.org{
+    color: rgb(255, 175, 55);
+}
+.half_width{
+    width: 45%;
+    padding-left: 7%;
+    color: rgb(56, 56, 56);
+}
+.half_width p{
+    color: rgb(85, 85, 85);
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.half_width img{
+    width: 78%;
+    margin-top: 35px;
+}
+.link_button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient( 45deg, rgb(255, 180, 42), tomato);
+    padding: 10px 35px;
+    border-radius: 8px;
+    box-shadow: 9px 6px 17px 0px rgb(138 138 138);
+    font-weight: 500;
+}
+.mgr-{
+    width: 40%;
+    margin-left: -3.5%;
+}
+.dream_area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 75%;
+    display: flex;
+
+}
+.experience_body{
+    display: flex;
+}
+.experience_body h1{
+    font-size: 30px;
+    color: rgb(27, 27, 27) ;
+}
+.experience_body h3{
+    color: rgb(255, 175, 55) ;
+}
+.experience_body p{
+    color: rgb(85, 85, 85);
+}
+.full_stack ,.baby_dev{
+    width: 35.5%;
+    margin-left: 7%;
+    padding: 2% 2%;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 4px 7px 28px rgb(75 75 75);
+    height: 310px;
+}
+.experience_body{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 60%;
+}
+.full_stack{
+    border-left: 5px solid;
+    border-image: linear-gradient( to bottom ,rgb(243, 66, 35), rgb(255, 180, 42));
+    border-image-slice: 1;
+}
+.baby_dev{
+    border-left: 5px solid;
+    border-image: linear-gradient( to bottom ,rgb(0, 19, 187), rgb(0, 153, 224));
+    border-image-slice: 1;
+}
+footer p{
+    font-size: 14px;
+    text-align: center;
+    color:  rgb(85, 85, 85);
+}
